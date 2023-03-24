@@ -2,9 +2,8 @@
     MAIN STYLES
 ***********************/
 
-
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 .main {
   background-color: var(--gray);
@@ -132,6 +131,8 @@
 }
 
 .wbtn {
+  /* width: 20px; */
+  /* font-size: 15px; */
   padding: 0.3em 1.2em;
   border-radius: 8px;
   background-color: var(--purple);
@@ -481,5 +482,26 @@
 
   .arrow-btn--right {
     transform: translate(60px, 200px);
+  }
+}
+
+@media (max-width: 426px) {
+  .wbtn {
+    padding: 4px;
+  }
+
+  .subscribe{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn{
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 25%;
+  }
+  .input{
+    width: 100%;
   }
 }
