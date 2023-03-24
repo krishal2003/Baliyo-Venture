@@ -276,12 +276,17 @@ img {
 
 .input {
   width: 55%;
+  outline: none;
   padding: 1em 0.8em;
   border: 1px solid #f4eefb;
   border-radius: 8px 0 0 8px;
   display: inline-block;
 }
 
+
+.btn{
+  cursor: pointer;
+}
 .important__links {
   list-style: none;
   display: flex;
