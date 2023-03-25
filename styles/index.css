@@ -486,8 +486,13 @@
 }
 
 @media (max-width: 426px) {
+
+  .important-section{
+    display: none;
+  }
+  
   .wbtn {
-    padding: 4px;
+    padding: 8px;
   }
 
   .subscribe{
@@ -500,6 +505,10 @@
     margin-top: 15px;
     border-radius: 5px;
     margin-left: 25%;
+  }
+
+  .nav_links{
+margin-left: 0%;;
   }
   .input{
     width: 100%;
